@@ -91,6 +91,10 @@ h1 {
   color: #fff;
 }
 
+#outrosMateriais {
+  height: 1%;
+}
+
 .container img {
   transition: transform 0.8s ease;
 }
