@@ -151,6 +151,9 @@ a:visited {
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
+  max-height: 30%;
+  overflow: auto;
+  text-align: justify;
 }
 
 .popup h2 {
@@ -169,12 +172,12 @@ a:visited {
   color: #333;
 }
 .popup .close:hover {
-  color: #06d85f;
+  color: red;
 }
-.popup .content {
-  max-height: 30%;
-  overflow: auto;
-  text-align: justify;
+
+.popup img {
+  width: 70px;
+  height: 70px;
 }
 
 @media screen and (max-width: 700px) {
@@ -184,4 +187,26 @@ a:visited {
   .popup {
     width: 70%;
   }
+}
+
+.pageContent {
+  color: #fff;
+  text-align: justify ;
+  }
+
+.pagOm {
+  background-color: #333;
+  color: #fff;
+}
+
+#milk {
+  width: fit-content;
+}
+
+#pbox {
+  width: fit-content;
+}
+
+#pneu {
+  width: fit-content;
 }
