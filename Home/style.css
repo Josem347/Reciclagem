@@ -46,7 +46,7 @@ body {
 }
 
 .homeContent img {
-  background-color: beige;
+  background-color: #202022;
 }
 
 .section {
@@ -63,13 +63,13 @@ body {
 }
 
 .newsCard img {
-  background-color: #5aaa5d;
+  background-color: #202022;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
 .newsCard div {
-  background-color: #5aaa5d;
+  background-color: #202022;
   height: 15%;
   display: flex;
   justify-content: center;
