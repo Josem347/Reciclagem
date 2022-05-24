@@ -1,0 +1,186 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #5aaa5d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fjalla One", sans-serif;
+  color: white;
+}
+
+.navbar span {
+  margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.navbar span:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.navbar span a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+}
+
+.homeContent {
+  background-color: #202022;
+  height: 100%;
+  padding: 10%;
+  color: #f0f0f2;
+  display: flex;
+}
+
+.homeContent h1 {
+  font-size: 5rem;
+  margin: 8% 0% -1% 0%;
+}
+
+.homeContent p {
+  width: 40%;
+}
+
+.homeContent img {
+  background-color: #202022;
+}
+
+.section {
+  background-color: #f0f0f2;
+  height: 100%;
+  padding: 2% 8% 2% 8%;
+}
+
+.newsCard {
+  background-color: white;
+  width: 32%;
+  height: 40vh;
+  border-radius: 15px;
+}
+
+.newsCard img {
+  background-color: #202022;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.newsCard div {
+  background-color: #202022;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  justify-self: end;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  align-items: center;
+  box-shadow: #202022;
+}
+
+.newsCard div p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.newsCard h2 {
+  margin-left: 6%;
+}
+
+.newsCard p {
+  margin-left: 6%;
+  margin-right: 4%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+
+#card1 {
+  width: 48%;
+  height: 50vh;
+  background-color: #334a8e;
+  border-radius: 15px;
+  color: white;
+}
+
+#card2 {
+  width: 48%;
+  height: 50vh;
+  background-color: #0e6f66;
+  border-radius: 15px;
+  color: white;
+}
+
+#card3 {
+  width: 48%;
+  height: 50vh;
+  background-color: #ffde73;
+  border-radius: 15px;
+  color: white;
+}
+
+#card4 {
+  width: 48%;
+  height: 50vh;
+  background-color: #84e2ec;
+  border-radius: 15px;
+  color: white;
+}
+
+#card1 h1 {
+  width: 50%;
+  margin: 12% 0% 0% 6%;
+}
+
+#card1 p {
+  margin-left: 6%;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+#card2 h1 {
+  width: 50%;
+  margin: 12% 0% 0% 6%;
+}
+
+#card2 p {
+  margin-left: 6%;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+#card3 h1 {
+  width: 50%;
+  margin: 12% 0% 0% 6%;
+}
+
+#card3 p {
+  margin-left: 6%;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+#card4 h1 {
+  width: 50%;
+  margin: 12% 0% 0% 6%;
+}
+
+#card4 p {
+  margin-left: 6%;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+
+.title {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 5%;
+}

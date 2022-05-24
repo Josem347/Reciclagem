@@ -315,56 +315,104 @@ a:visited {
   font-size: 1.5rem;
 }
 
-.home {
-  background-image: url("images/homePage4.jpg");
-  background-size: cover;
-}
-
-.h1Home {
-  font-size: 5rem;
-  margin-bottom: 1rem;
-  width: 100%;
-  font-family: 'Heebo', sans-serif;
+body {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
 }
 
 .homeContent {
-  font-size: 1rem;
-  margin-top: 10rem;
-  margin-right: 50rem;
-  margin-left: 6.5rem;
-  margin-bottom: 2rem;
+  background-image: url(images/homePage7.jpg);
+  background-size: cover;
+  height: 100%;
+  padding: 10%;
+  color: #f0f0f2;
+  display: flex;
+}
+
+.homeContent h1 {
+  font-size: 5rem;
+  margin: 8% 52.8% 0% 0%;
   color: white;
-  width: 50%;
-  text-align: justify;
-  font-family: 'Heebo', sans-serif;
 }
 
 .homeContent p {
-  width: 50%;
+  width: 40%;
+  color: white;
+  margin: 0% 1% 0% 0%;
+  font-family: "Heebo", sans-serif;
 }
 
-.homeArtigo {
- display: flex;
- justify-content: space-evenly;
- color: white;
+.homeContent img {
+  background-color: #202022;
 }
 
-.art1 {
-  width: 20%;
-  display:flex;
-  align-items: center;
+.section {
+  background-color: #333;
+  height: 100%;
+  padding: 2% 8% 2% 8%;
+  font-family: "Heebo", sans-serif;
 }
 
-.art2 {
+.newsCard {
+  background-color: white;
+  width: 32%;
+  height: 40vh;
+  border-radius: 15px;
+  text-align:justify;
+}
+
+.newsCard img {
+  background-color: #202022;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+
+.newsCard div {
+  background-color: #202022;
+  height: 15%;
   display: flex;
+  justify-content: center;
+  justify-self: end;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   align-items: center;
-  width: 20%;
+  box-shadow: #202022;
 }
 
-.art3 {
+.newsCard div p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.newsCard h2 {
+  margin-left: 6%;
+}
+
+.newsCard p {
+  margin-left: 6%;
+  margin-right: 4%;
+}
+
+.newsCard a {
+  color: white;
+}
+
+.row {
   display: flex;
-  align-items: center;
-  width: 20%;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 5%;
+  font-family: "Heebo", sans-serif;
+  font: bold;
+  color: white;
 }
 
 
