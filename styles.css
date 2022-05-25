@@ -445,11 +445,59 @@ body {
   font-size: 1.5rem;
 }
 
+.artigo2 p {
+  text-justify: auto;
+  padding: 1%;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.artigo1 p {
+  text-justify: auto;
+  padding: 1%;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.artigo1 h2 {
+  text-align: center;
+  color: white;
+  padding: 2%;
+  font-size: 3rem;
+  font-family:  "Merriweather Sans", sans-serif;
+}
+
+.artigo2 h2 {
+  text-align: center;
+  color: white;
+  padding: 2%;
+  font-size: 3rem;
+  font-family:  "Merriweather Sans", sans-serif;
+}
+
+.artigo1 img {
+  
+}
+
+.artigo2 img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .artigo3 img {
   display: flex;
   width: 50%;
   height: 50%;
   margin-top: -2%;
+}
+
+#bodyArt1 {
+  background-color: #202022;
+}
+
+#bodyArt2 {
+  background-color: #202022;
 }
 
 #reciclaBin {
