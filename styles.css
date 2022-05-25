@@ -14,7 +14,7 @@ h1 {
   font-family: "Fjalla One", sans-serif;
   color: white;
 }
-
+ 
 .navbar span {
   margin: 0rem 0.5rem 0rem 0.5rem;
 }
@@ -321,7 +321,7 @@ body {
 }
 
 .homeContent {
-  background-image: url(images/homePage7.jpg);
+  background-image: url(images/homePage5.jpg);
   background-size: cover;
   height: 100%;
   padding: 10%;
@@ -410,12 +410,55 @@ body {
   text-align: center;
   font-size: 2.8rem;
   margin-bottom: 5%;
-  font-family: "Heebo", sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font: bold;
   color: white;
 }
 
+.artigo3 {
+  background-color: #202022;
+}
 
+.artigo3 h2 {
+  text-align: center;
+  color: white;
+  padding: 2%;
+  font-size: 3rem;
+  font-family:  "Merriweather Sans", sans-serif;
+}
 
+.artigoContent {
+  color: white;
+  text-align: justify;
+  font-family: "Merriweather Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5%;
+  font-size: 1.5rem;
+}
 
+.artigo3 p {
+  text-justify: auto;
+  padding: 1%;
+  font-size: 1.5rem;
+}
 
+.artigo3 img {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  margin-top: -2%;
+}
+
+#reciclaBin {
+  margin-top: 1%;
+}
+
+#tipoLixo {
+  text-justify: auto;
+  padding: 1%;
+  font-size: 1.5rem;
+  text-align: left;
+}
