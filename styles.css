@@ -331,8 +331,8 @@ body {
 
 .homeContent h1 {
   font-size: 5rem;
-  margin: 8% 52.8% 0% 0%;
   color: white;
+  text-align: start;
 }
 
 .homeContent p {
@@ -368,7 +368,7 @@ body {
   object-fit: cover;
 }
 
-.newsCard div {
+.bottom {
   background-color: #202022;
   height: 15%;
   display: flex;
@@ -378,17 +378,14 @@ body {
   border-bottom-right-radius: 15px;
   align-items: center;
   box-shadow: #202022;
+
 }
 
-.newsCard div p {
+.bottom p {
   color: white;
   font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 1px;
-}
-
-.newsCard h2 {
-  margin-left: 6%;
 }
 
 .newsCard p {
@@ -494,6 +491,16 @@ body {
   border-radius: 10px;
   margin-top: -15%;
   margin-bottom: 5%;
+}
+
+.artInfo1 {
+  width: 55%;
+  height: 100%;
+  background-color: #f0f0f2;
+  border-radius: 10px;
+  margin-top: -15%;
+  margin-bottom: 5%;
+  padding-bottom: 2%;
 }
 
 .artInfo2 {
