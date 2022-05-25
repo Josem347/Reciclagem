@@ -14,7 +14,7 @@ h1 {
   font-family: "Fjalla One", sans-serif;
   color: white;
 }
- 
+
 .navbar span {
   margin: 0rem 0.5rem 0rem 0.5rem;
 }
@@ -358,7 +358,7 @@ body {
   width: 32%;
   height: 40vh;
   border-radius: 15px;
-  text-align:justify;
+  text-align: justify;
 }
 
 .newsCard img {
@@ -424,12 +424,10 @@ body {
   color: white;
   padding: 2%;
   font-size: 3rem;
-  font-family:  "Merriweather Sans", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .artigoContent {
-  color: white;
-  text-align: justify;
   font-family: "Merriweather Sans", sans-serif;
   display: flex;
   flex-direction: column;
@@ -437,6 +435,7 @@ body {
   justify-content: center;
   padding: 2.5%;
   font-size: 1.5rem;
+  padding-top: 5%;
 }
 
 .artigo3 p {
@@ -457,8 +456,45 @@ body {
 }
 
 #tipoLixo {
-  text-justify: auto;
-  padding: 1%;
-  font-size: 1.5rem;
-  text-align: left;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.artInfo {
+  width: 55%;
+  height: 50vh;
+  background-color: #f0f0f2;
+  border-radius: 10px;
+  margin-top: -15%;
+  margin-bottom: 5%;
+}
+
+.artInfo2 {
+  width: 55%;
+  height: 60vh;
+  background-color: #f0f0f2;
+  border-radius: 10px;
+  margin-top: -15%;
+  margin-bottom: 5%;
+}
+
+.artigoContent img {
+  width: 70%;
+  height: 50%;
+  border-radius: 15px;
+}
+
+.artigoContent h2 {
+  color: black;
+  font-size: 5.5rem;
+  margin-top: 2%;
+}
+
+.artigoContent p {
+  font-size: 1.2rem;
+  margin: 0% 2% 0% 2%;
+  font-weight: 100;
 }
