@@ -13,25 +13,37 @@
   <style>
     #mapa {
       width: 100%;
-      height: 800px;
+      height: 600px;
       background-color: gray;
     }
   </style>
 </head>
 <header>
   <div class="navbar">
-    <nav>
-      <span>
-        <a class="button2" href="home.html">HOME</a>
-      </span>
-      <span>
-        <a class="button2" href="locais.html">LOCAIS</a>
-      </span>
-      <span>
-        <a class="button2" href="index.html">INFORMAÇÕES</a>
-      </span>
-    </nav>
-  </div>
+    <div style="
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          padding: 2%;
+          align-items: center;
+        ">
+      <div>
+        <img src="images/logoRecicla3.jpeg" alt="" width="80px" height="70px">
+      </div>
+
+      <nav>
+        <span>
+          <a class="button2" href="home.html">HOME</a>
+        </span>
+        <span>
+          <a class="button2" href="locais.html">LOCAIS</a>
+        </span>
+        <span>
+          <a class="button2" href="index.html">INFORMAÇÕES</a>
+        </span>
+      </nav>
+      <img src="images/logoRecicla3.jpeg" alt="" width="80px" height="70px">
+    </div>
 </header>
 
 <body>
@@ -46,59 +58,72 @@
         center: coordenadas
       });
 
-      var marker = new google.maps.Marker({
+      let marker = new google.maps.Marker({
         position: coordenadas,
         map: mapa,
-        title: 'Meu marcador'
+        title: 'Você está aqui!'
       });
+    
+      let marker2 = new google.maps.Marker({
+        position: new google.maps.LatLng(-3.0777081, -60.0242116),
+        map:mapa,
+        title: 'Estação de reciclagem'
+      })
+
+      let marker3 = new google.maps.Marker({
+        position: new google.maps.LatLng(-3.0660605,-60.0036554),
+        map:mapa,
+        title: 'Descarte Correto'
+      })
+
+      let marker4 = new google.maps.Marker({
+        position: new google.maps.LatLng(-3.0836695,-60.0418473),
+        map:mapa,
+        title: 'Drogasil'
+      })
+
+      let marker5 = new google.maps.Marker({
+        position: new google.maps.LatLng(-3.1051764,-60.0111168),
+        map:mapa,
+        title: 'Carrefour: Descarte de Lâmpadas/Pilhas'
+      })
+      
+      let marker6 = new google.maps.Marker({
+        position: new google.maps.LatLng(-3.1147689,-60.0208632),
+        map:mapa,
+        title: 'SV instalações'
+      })
+      
+      let marker7 = new google.maps.Marker({
+        position: new google.maps.LatLng(-3.0362764,-59.9947314),
+        map:mapa,
+        title: 'Hiper DB'
+      })
+      
+      let marker8 = new google.maps.Marker({
+        position: new google.maps.LatLng(-3.0919717,-59.9986282),
+        map:mapa,
+        title: 'Pátio Gourmet'
+      })
+      
+      let marker9 = new google.maps.Marker({
+        position: new google.maps.LatLng(-3.0697668,-60.0061993),
+        map:mapa,
+        title: 'Supermercado Veneza'
+      })
+      
+      let marker10 = new google.maps.Marker({
+        position: new google.maps.LatLng(-3.111877,-60.0150904),
+        map:mapa,
+        title: 'Supermercado Emporium Roma'
+      })
+      
     }
+      
   </script>
-  <script>
-    //nova posição
-    var ponto = new google.maps.LatLng(-3.103448075031708, -60.025019473511875);
-    var marker = new google.maps.Marker({
-      position: ponto,//seta posição
-      map: mapa,//Objeto mapa
-      title: "Hello World!"//string que será exibida quando passar o mouse no marker
-      //icon: caminho_da_imagem
-    });
-    function carregarPontos() {
-
-      $.getJSON('Reciclagem-info-page/pontos.json', function (pontos) {
-
-        $.each(pontos, function (index, ponto) {
-
-          var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(ponto.Latitude, ponto.Longitude),
-            title: "Meu ponto personalizado! :-D",
-            map: mapa
-          });
-
-        });
-
-      });
-
-    }
-
-
-    carregarPontos();
   </script>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG7s_G2ofjOGx3MknUwWccjQDlymUruKY&callback=inicializar">
-    [
-    {
-        "Latitude": -3.103448075031708,
-        "Longitude": -60.025019473511875
-    },
-    {
-        "Latitude": -3.0775758171690657,
-        "Longitude": -60.022548031182616
-    },
-    {
-        "Latitude": -3.097509174013435,
-        "Longitude": -60.009145502347316
-    }
-]
     </script>
 </body>
 
