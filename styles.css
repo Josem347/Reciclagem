@@ -486,7 +486,7 @@ body {
 
 .artInfo {
   width: 55%;
-  height: 50vh;
+  height: 100%;
   background-color: #f0f0f2;
   border-radius: 10px;
   margin-top: -15%;
@@ -505,7 +505,7 @@ body {
 
 .artInfo2 {
   width: 48%;
-  height: 60vh;
+  height: 100%;
   background-color: #f0f0f2;
   border-radius: 10px;
   margin-top: -15%;
