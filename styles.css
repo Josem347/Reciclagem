@@ -230,8 +230,11 @@ a:visited {
 }
 
 .pagOm {
-  background-color: #333;
+  background-color: #202022;
   color: #fff;
+  padding-top: 4%;
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
 }
 
 .pagOm h2 {
