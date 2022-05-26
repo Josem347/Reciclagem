@@ -504,12 +504,13 @@ body {
 }
 
 .artInfo2 {
-  width: 55%;
+  width: 48%;
   height: 60vh;
   background-color: #f0f0f2;
   border-radius: 10px;
   margin-top: -15%;
   margin-bottom: 5%;
+  padding: 2%;
 }
 
 .artigoContent img {
@@ -539,8 +540,22 @@ body {
   margin-bottom: 5%;
 }
 
-.artigo2Info {
- 
+.artigo2Content img {
+  width: 55%;
+  height: 30%;
+  border-radius: 15px;
+}
+
+.artigo2Content h2 {
+  color: black;
+  font-size: 5.5rem;
+  margin-top: 2%;
+}
+
+.artigo2Content p {
+  font-size: 1.2rem;
+  margin: 0% 2% 0% 2%;
+  font-weight: 100;
 }
 
 .artigo2 p {
